@@ -57,7 +57,7 @@ Panier Médian (panier "typique") : 607€
 
 La distribution du chiffre d’affaires est fortement asymétrique (panier moyen nettement supérieur au panier médian), ce qui indique la présence de commandes de très forte valeur.
 
-![Tendances mensuelles sur la période](/Projetc/assets/charts/monthly_trends_per_year.png)
+![Tendances mensuelles sur la période](/Project/assets/charts/monthly_trends_per_year.png)
 
 **Question analytique**
 
@@ -118,3 +118,4 @@ La croissance du chiffre d'affaires observé après 2023 est portée principalem
 
 
 5. Insight business : interprétation des résultats, traduction des analyses en recommandations concrètes, mesurer l’impact des segments clients et des gammes de produits sur le chiffre d’affaires.
+
