@@ -94,7 +94,7 @@ Qu’est-ce qui explique la croissance du chiffre d'affaires après 2023 ?
 
 6. Rétention
 * churn élevé des clients Occasional, en particulier de la cohorte 2023, observé.
-![Impact des Occasional churned sur le chiffre d'affaire par cohorte](/Project/assets/charts/occasional_churned.png)
+![Impact des Occasional churned sur le chiffre d'affaire par cohorte](/Project/assets/charts/revenue_impact_of_churn.png)
 
 **Insights business**
 
@@ -118,4 +118,5 @@ La croissance du chiffre d'affaires observé après 2023 est portée principalem
 
 
 5. Insight business : interprétation des résultats, traduction des analyses en recommandations concrètes, mesurer l’impact des segments clients et des gammes de produits sur le chiffre d’affaires.
+
 
