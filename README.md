@@ -46,12 +46,12 @@ Afin d’éviter toute interprétation biaisée, le périmètre de l’analyse e
 
 **Aperçu KPIs**
 
-Période : 02/2023-02/2026
-Volume de commandes : 11 889
-Nombre de clients actifs : 4 568
-Chiffre d'affaires Net : 15 911 429€
-Panier Moyen : 1 338€
-Panier Médian (panier "typique") : 607€
+* Période : 02/2023-02/2026
+* Volume de commandes : 11 889
+* Nombre de clients actifs : 4 568
+* Chiffre d'affaires Net : 15 911 429€
+* Panier Moyen : 1 338€
+* Panier Médian (panier "typique") : 607€
 
 **Premiers Constats**
 
@@ -118,5 +118,6 @@ La croissance du chiffre d'affaires observé après 2023 est portée principalem
 
 
 5. Insight business : interprétation des résultats, traduction des analyses en recommandations concrètes, mesurer l’impact des segments clients et des gammes de produits sur le chiffre d’affaires.
+
 
 
