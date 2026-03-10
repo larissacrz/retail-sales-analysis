@@ -74,26 +74,32 @@ Qu’est-ce qui explique la croissance du chiffre d'affaires après 2023 ?
 1. Acquisition clients
 * vague d'acquisition importante en 2023 : 
 53.8% de nouveaux clients contribuant à 64% du chiffre d'affaires (constitue la base des clients).
+  
 ![Carte de chaleur d'acquisition](/Project/assets/charts/acquisition.png)
 
 2. Structure du comportement d'achat
 * segment Occasional dominant : représentant 69.5% du chiffre d'affaires.
+  
 ![Distribution des clients vs CA par Fréquence](/Project/assets/charts/frequency_segments.png)
 
 3. La fréquence d'achat des clients existants contribue au chiffre d'affaires, mais son impact reste modéré (~24 %).
+
 ![Corrélation entre variation de fréquence et variation du CA](/Project/assets/charts/frequency_revenue_corr.png)
 
 4. Concentration client
 *  6.9 % des clients génèrent 31 % du chiffre d’affaires, ce qui indique la présence d’un groupe restreint de gros acheteurs.
+
 ![Concentration des gros acheteurs](/Project/assets/charts/high_value_concentration.png)
 
 5. Structure produit
 * les produits de la gamme Premium/High représentent environ 75% du chiffre d'affaires. 
 * la catégorie-prix Premium constitue seule le facteur majeur de concentration du revenu (skew): environ 38% du CA annuel.
+
 ![Distribution annuelle du CA par Prix-Catégories](/Project/assets/charts/price_buckets_yearly_distribution.png)
 
 6. Rétention
 * churn élevé des clients Occasional, en particulier de la cohorte 2023, observé.
+
 ![Impact des Occasional churned sur le chiffre d'affaire par cohorte](/Project/assets/charts/revenue_impact_of_churn.png)
 
 #### **Insights business**
@@ -126,6 +132,7 @@ Environnement : VS Code
 * Visualisations : Matplotlib et Seaborn
 * Présentation : Google Slides
 * Présentation vidéo : Google Vids
+
 
 
 
