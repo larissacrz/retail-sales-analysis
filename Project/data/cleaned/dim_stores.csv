@@ -1,0 +1,11 @@
+Store_ID,Store_Name,City,Region,Sales_Channel
+1,Store 1,Nice,PACA,Online
+2,Store 2,Nantes,Pays de la Loire,Online
+3,Store 3,Bordeaux,Nouvelle-Aquitaine,Online
+4,Store 4,Nantes,Pays de la Loire,Offline
+5,Store 5,Nantes,Pays de la Loire,Offline
+6,Store 6,Marseille,PACA,Online
+7,Store 7,Marseille,PACA,Offline
+8,Store 8,Nice,PACA,Online
+9,Store 9,Strasbourg,Grand-Est,Online
+10,Store 10,Nantes,Pays de la Loire,Online

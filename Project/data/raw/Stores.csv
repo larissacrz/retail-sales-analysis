@@ -1,0 +1,11 @@
+Store_ID,Store_Name,City,Region,Sales_Channel
+1,Store 1,Nice,Delaware,Online
+2,Store 2,Nantes,Kentucky,Online
+3,Store 3,Bordeaux,Maine,Online
+4,Store 4,Nantes,North Dakota,Offline
+5,Store 5,Nantes,Kentucky,Offline
+6,Store 6,Marseille,Florida,Online
+7,Store 7,Marseille,Wisconsin,Offline
+8,Store 8,Nice,Massachusetts,Online
+9,Store 9,Strasbourg,Virginia,Online
+10,Store 10,Nantes,North Dakota,Online

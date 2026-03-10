@@ -1,0 +1,8 @@
+pandas==2.1.0 #manipulation of data
+numpy==1.26.0 #calculations
+matplotlib==3.8.0 #visualization
+seaborn==0.12.2 #visualization
+jupyter==1.0.0 #interactive environment
+ipykernel==6.28.0 #kernel for Jupyter
+openpyxl==3.2.2 #Excel file handling
+python-dateutil==2.9.2 #date handling
