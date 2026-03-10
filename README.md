@@ -126,12 +126,13 @@ La croissance du chiffre d'affaires observé après 2023 est portée principalem
 
 ### **Workflow**
 
-Environnement : VS Code
+* Environnement : VS Code
 * Analyse et nettoyage : Jupyter Notebook
 * Code : Python
 * Visualisations : Matplotlib et Seaborn
 * Présentation : Google Slides
 * Présentation vidéo : Google Vids
+
 
 
 
