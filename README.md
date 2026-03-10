@@ -1,6 +1,6 @@
 ## README 
 
-**Introduction**
+### **Introduction**
 
 Ce projet s'inscrit dans le cadre de ma candidature à la formation Data Analyst proposée par OpenClassrooms, et financée par France Travail, dans le contexte de mon projet de reconversion professionnelle, accompagné et validé par un conseiller France Travail.
 
@@ -14,7 +14,7 @@ Cette étude est organisée en deux étapes :
 
 * La deuxième partie (Notebook 2) se concentrera sur l'analyse exploratoire de ces données nettoyées et sur la compréhension des enjeux business.
 ________
-**Notebook 1** - Préparation des données
+### **Notebook 1** - Préparation des données
 
 Avant l’analyse, un travail de nettoyage et de transformation des données a été réalisé.
 
@@ -34,9 +34,9 @@ Les données ont ensuite été structurées selon une logique analytique fact/di
 
 Ce dataset préparé constitue la base utilisée dans le Notebook 2 pour l’analyse.
 ___________
-**Notebook 2** - Analyse exploratoire et insights business
+### **Notebook 2** - Analyse exploratoire et insights business
 
-**Contexte/Scope**
+#### **Contexte/Scope**
 
 Une forte disparité temporelle est observée dans les données, avec un changement important d’échelle du business à partir de 2023.
 
@@ -44,7 +44,7 @@ Afin d’éviter toute interprétation biaisée, le périmètre de l’analyse e
 
 ![Distribution des commandes dans le temps](/Project/assets/charts/orders_distribution.png)
 
-**Aperçu KPIs**
+#### **Aperçu KPIs**
 
 * Période : 02/2023-02/2026
 * Volume de commandes : 11 889
@@ -53,23 +53,23 @@ Afin d’éviter toute interprétation biaisée, le périmètre de l’analyse e
 * Panier Moyen : 1 338€
 * Panier Médian (panier "typique") : 607€
 
-**Premiers Constats**
+#### **Premiers Constats**
 
 La distribution du chiffre d’affaires est fortement asymétrique (panier moyen nettement supérieur au panier médian), ce qui indique la présence de commandes de très forte valeur.
 
 ![Tendances mensuelles sur la période](/Project/assets/charts/monthly_trends_per_year.png)
 
-**Question analytique**
+#### **Question analytique**
 
 Qu’est-ce qui explique la croissance du chiffre d'affaires après 2023 ?
 
-**Hypothèses**
+#### **Hypothèses**
 
 1. Acquisition des nouveaux clients.
 2. Augmentation de la fréquence d'achats des clients existants.
 3. Concentration des achats sur certains segments ou produits.
 
-**Principaux résultats**
+#### **Principaux résultats**
 
 1. Acquisition clients
 * vague d'acquisition importante en 2023 : 
@@ -96,17 +96,17 @@ Qu’est-ce qui explique la croissance du chiffre d'affaires après 2023 ?
 * churn élevé des clients Occasional, en particulier de la cohorte 2023, observé.
 ![Impact des Occasional churned sur le chiffre d'affaire par cohorte](/Project/assets/charts/revenue_impact_of_churn.png)
 
-**Insights business**
+### **Insights business**
 
 * Mettre en place des stratégies d'acquisition de nouveaux clients et des actions ciblées de fidélisation, afin de convertir ces acheteurs en clients réguliers.
 * Réactiver les clients existants, notamment du segment Occasional, et renforcer leur fidélisation (remises ciblées, programme de fidélité).
 * Réduire la dépendance aux produits Premium et High en favorisant une diversification du panier (remises, promotions, soldes).
 
-**Conclusion**
+### **Conclusion**
 
 La croissance du chiffre d'affaires observé après 2023 est portée principalement par la vague initiale de nouveaux clients, mais la forte concentration sur un petit groupe de gros acheteurs, une forte dépendance à de produits haute gamme et le churn élevé des clients Occasional représentent des leviers critiques pour stabiliser le chiffre d'affaires et un risque à la croissance future.
 
-**Compétences mobilisées**
+### **Compétences mobilisées**
 
 1. Qualité et structuration des données : nettoyage, contrôle des valeurs manquantes, doublons, types de variables et modélisation (fact/dimensions).
 
@@ -116,8 +116,8 @@ La croissance du chiffre d'affaires observé après 2023 est portée principalem
 
 4. Visualisation et storytelling : graphiques synthétiques pour interprétation métier et communication des insights.
 
-
 5. Insight business : interprétation des résultats, traduction des analyses en recommandations concrètes, mesurer l’impact des segments clients et des gammes de produits sur le chiffre d’affaires.
+
 
 
 
