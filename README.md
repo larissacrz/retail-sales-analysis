@@ -30,7 +30,9 @@ Les données ont ensuite été structurées selon une logique analytique fact/di
 * fact_sales — granularité : 1 ligne = 1 produit par commande
 * fact_sales_order — granularité : 1 ligne = 1 commande
 
-![Data Modeling](/Project/assets/data_modeling.png)
+<img src="/Project/assets/data_modeling.png" width = 70%/>
+
+Légende: Data Modeling
 
 Ce dataset préparé constitue la base utilisée dans le Notebook 2 pour l’analyse.
 ___________
@@ -43,6 +45,8 @@ Une forte disparité temporelle est observée dans les données, avec un changem
 Afin d’éviter toute interprétation biaisée, le périmètre de l’analyse est donc défini sur la période 2023–2026.
 
 ![Distribution des commandes dans le temps](/Project/assets/charts/orders_distribution.png)
+
+Légende: Distribution du volume des commandes dans le temps
 
 #### **Aperçu KPIs**
 
@@ -57,7 +61,9 @@ Afin d’éviter toute interprétation biaisée, le périmètre de l’analyse e
 
 La distribution du chiffre d’affaires est fortement asymétrique (panier moyen nettement supérieur au panier médian), ce qui indique la présence de commandes de très forte valeur.
 
-![Tendances mensuelles sur la période](/Project/assets/charts/monthly_trends_per_year.png)
+<img src="/Project/assets/charts/monthly_trends_per_year.png" width = 70%/>
+
+Légende: Tendances mensuelles sur la période
 
 #### **Question analytique**
 
@@ -71,36 +77,48 @@ Qu’est-ce qui explique la croissance du chiffre d'affaires après 2023 ?
 
 #### **Principaux résultats**
 
-1. Acquisition clients
-* vague d'acquisition importante en 2023 : 
+**1. Acquisition clients**
+* Vague d'acquisition importante en 2023 : 
 53.8% de nouveaux clients contribuant à 64% du chiffre d'affaires (constitue la base des clients).
   
-![Carte de chaleur d'acquisition](/Project/assets/charts/acquisition.png)
+<img src="/Project/assets/charts/acquisition.png" width = 70%/>
 
-2. Structure du comportement d'achat
-* segment Occasional dominant : représentant 69.5% du chiffre d'affaires.
+Légende: Carte de chaleur d'acquisition
+
+**2. Structure du comportement d'achat**
+* Segment Occasional dominant : représentant 69.5% du chiffre d'affaires.
   
-![Distribution des clients vs CA par Fréquence](/Project/assets/charts/frequency_segments.png)
+<img src="/Project/assets/charts/frequency_segments.png" width = 70%/>
 
-3. La fréquence d'achat des clients existants contribue au chiffre d'affaires, mais son impact reste modéré (~24 %).
+Légende: Distribution des clients vs CA par Fréquence
 
-![Corrélation entre variation de fréquence et variation du CA](/Project/assets/charts/frequency_revenue_corr.png)
+**3. La fréquence d'achat des clients existants** contribue au chiffre d'affaires, mais son impact reste modéré (~24 %).
 
-4. Concentration client
+<img src="/Project/assets/charts/frequency_revenue_corr.png" width = 70%/>
+
+Légende: Corrélation entre variation de fréquence et variation du chiffre d'affaires
+
+**4. Concentration client**
 *  6.9 % des clients génèrent 31 % du chiffre d’affaires, ce qui indique la présence d’un groupe restreint de gros acheteurs.
 
-![Concentration des gros acheteurs](/Project/assets/charts/high_value_concentration.png)
+<img src="/Project/assets/charts/high_value_concentration.png" width = 70%/>
 
-5. Structure produit
-* les produits de la gamme Premium/High représentent environ 75% du chiffre d'affaires. 
-* la catégorie-prix Premium constitue seule le facteur majeur de concentration du revenu (skew): environ 38% du CA annuel.
+Légende: Concentration des gros acheteurs
 
-![Distribution annuelle du CA par Prix-Catégories](/Project/assets/charts/price_buckets_yearly_distribution.png)
+**5. Structure produit**
+* Les produits de la gamme Premium/High représentent environ 75% du chiffre d'affaires. 
+* La catégorie-prix Premium constitue seule le facteur majeur de concentration du revenu (skew): environ 38% du CA annuel.
 
-6. Rétention
-* churn élevé des clients Occasional, en particulier de la cohorte 2023, observé.
+<img src="/Project/assets/charts/price_buckets_yearly_distribution.png" width = 70%/>
 
-![Impact des Occasional churned sur le chiffre d'affaire par cohorte](/Project/assets/charts/revenue_impact_of_churn.png)
+Légende: Distribution annuelle du chiffre d'affaires par catégories-prix
+
+**6. Rétention**
+* Churn élevé des clients Occasional, en particulier de la cohorte 2023, observé.
+
+<img src="/Project/assets/charts/revenue_impact_of_churn.png" width = 70%/>
+
+Légende: Impact des clients du segment Occasional churnés sur le chiffre d'affaire par cohorte
 
 #### **Insights business**
 
@@ -115,13 +133,9 @@ La croissance du chiffre d'affaires observé après 2023 est portée principalem
 ### **Compétences mobilisées**
 
 1. Qualité et structuration des données : nettoyage, contrôle des valeurs manquantes, doublons, types de variables et modélisation (fact/dimensions).
-
 2. Feature engineering et calcul de KPI : création de variables dérivées et indicateurs analytiques pour clients, produits et temporalité.
-
 3. Analyse client et segmentation : RFM, cohortes, acquisition, rétention, distribution et concentration du chiffre d’affaires.
-
 4. Visualisation et storytelling : graphiques synthétiques pour interprétation métier et communication des insights.
-
 5. Insight business : interprétation des résultats, traduction des analyses en recommandations concrètes, mesurer l’impact des segments clients et des gammes de produits sur le chiffre d’affaires.
 
 ### **Workflow**
